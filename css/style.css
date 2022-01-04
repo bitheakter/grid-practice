@@ -1,0 +1,42 @@
+.choto-div img{
+    width: 400px;
+    transition: all 10s;
+}
+.choto-div img:hover{
+    transform: rotate(360deg);
+}
+.boro-div{
+    display: grid;
+    grid-template-columns: repeat( 3,1fr);
+    grid-gap: 10px;
+}
+.choto-div{
+    border: 3px solid orange;
+    padding: 10px;
+}
+.btn{
+    background-color: orange;
+    padding: 8px 20px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: white;
+    border: 3px solid orange;
+    transform: scale(1.1);
+}
+.choto-div-1 img{
+    width: 400px;
+    transition: all 0.3s;
+}
+.choto-div-1 img:hover{
+  
+    transform: scale(1.1);
+}
+.choto-div-1{
+    border: 3px solid orange;
+    padding: 10px;
+    overflow: hidden;
+}
